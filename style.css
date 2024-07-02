@@ -19,12 +19,9 @@ body {
 }
 
 header {
-  border: 1px solid;
-  margin-top: 6rem;
   text-align: center;
   line-height: 2rem;
-  padding: 0.5rem 0 1rem 0;
-  margin-left: auto;
+  padding: 5rem 0 0 0;
 }
 
 header span {
@@ -69,11 +66,11 @@ header .btn-2 a {
 }
 
 header .top-btn {
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-top: 2rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
 .profile-image img {
@@ -83,3 +80,39 @@ header .top-btn {
   border-radius: 10px;
   margin-top: 3rem;
 }
+
+#about-me {
+ text-align: center;
+ margin-top: 2rem;
+}
+
+section span {
+  font-size: 0.9rem;
+}
+
+section h2 {
+   font-weight: 200;
+   font-size: 1.3rem;
+   margin-top: 0.5rem;
+   color: orange
+}
+
+.about-p {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.about-p p {
+  text-align: start;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+/* @media (max-width:1000px){
+  .about-p p {
+    text-align: center;
+    word-spacing: none;
+  }
+
+} */
