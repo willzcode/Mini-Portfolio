@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -12,12 +13,73 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  color: #000;
-}
-header {
-    margin-top: 1rem;
+  background-color: #000;
+  color: #fff;
+  max-height: 100vh;
 }
 
-header p, header h1 {
-    text-align: center;
+header {
+  border: 1px solid;
+  margin-top: 6rem;
+  text-align: center;
+  line-height: 2rem;
+  padding: 0.5rem 0 1rem 0;
+  margin-left: auto;
+}
+
+header span {
+  font-size: 0.9rem;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header .btn-1 a {
+  border: 1px solid orange;
+  font-size: 1rem;
+  padding: 1em;
+  border-radius: 5px;
+  color: orange;
+}
+
+.btn-1 a:hover {
+  color: black;
+  background-color: orange;
+}
+
+header .btn-2 a {
+  font-size: 1rem;
+  padding: 1em;
+  border-radius: 5px;
+  background-color: orange;
+  border: 1px solid orange;
+  color: #000;
+}
+
+.btn-2 a:hover {
+  background-color: transparent;
+  color: orange;
+}
+
+header .top-btn {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.profile-image img {
+  width: 50%;
+  max-width: 250px;
+  min-width: 250px;
+  border-radius: 10px;
+  margin-top: 3rem;
 }
