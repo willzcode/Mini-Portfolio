@@ -104,15 +104,53 @@ section h2 {
 }
 
 .about-p p {
-  text-align: start;
   margin-top: 1rem;
   font-size: 0.9rem;
 }
 
-/* @media (max-width:1000px){
-  .about-p p {
-    text-align: center;
-    word-spacing: none;
-  }
+.social-handles {
+  margin-top: 3rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
 
-} */
+.social-handles a {
+  text-decoration: none;
+}
+
+.social-handles .contact {
+  border: 1px solid orange;
+  background-color: orange;
+  font-size: 1rem;
+  padding: 1em;
+  border-radius: 5px;
+  color: #000;
+}
+
+.social-handles .contact:hover {
+  background: none;
+  color: orange;
+}
+
+.social-handles .github {
+  border: 1px solid orange;
+  font-size: 1rem;
+  padding: 1em;
+  border-radius: 5px;
+  color: orange;
+}
+
+.social-handles .linkedin {
+  border: 1px solid orange;
+  background-color: orange;
+  font-size: 1rem;
+  padding: 1em;
+  border-radius: 5px;
+  color: #000;
+}
+
+
+.social-handles img {
+ 
+}
