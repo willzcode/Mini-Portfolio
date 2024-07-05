@@ -82,8 +82,8 @@ header .top-btn {
 }
 
 #about-me {
- text-align: center;
- margin-top: 3rem;
+  text-align: center;
+  margin-top: 3rem;
 }
 
 section span {
@@ -91,10 +91,10 @@ section span {
 }
 
 section h2 {
-   font-weight: 200;
-   font-size: 1.3rem;
-   margin-top: 0.5rem;
-   color: orange
+  font-weight: 200;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  color: orange;
 }
 
 .about-p {
@@ -128,7 +128,8 @@ section h2 {
   color: #000;
 }
 
-.social-handles .contact:hover, .social-handles .linkedin:hover {
+.social-handles .contact:hover,
+.social-handles .linkedin:hover {
   background: none;
   color: orange;
 }
@@ -171,7 +172,8 @@ section h2 {
   justify-content: center;
 }
 
-.frontend, .design {
+.frontend,
+.design {
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -182,7 +184,8 @@ section h2 {
   border-radius: 10px;
 }
 
-.frontend p, .design p {
+.frontend p,
+.design p {
   text-align: center;
   color: orange;
   font-size: 20px;
@@ -190,8 +193,8 @@ section h2 {
 
 #skill ul {
   margin-top: 1rem;
- font-size: 1rem;
- margin-left: 40%;
+  font-size: 1rem;
+  margin-left: 40%;
 }
 
 #skill li {
@@ -201,9 +204,9 @@ section h2 {
 #skill li::marker {
   content: "✔";
   color: orange;
-  
 }
 
-.frontend:hover, .design:hover {
+.frontend:hover,
+.design:hover {
   border: 1px solid #fff;
 }
