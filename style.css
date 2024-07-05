@@ -83,7 +83,7 @@ header .top-btn {
 
 #about-me {
  text-align: center;
- margin-top: 2rem;
+ margin-top: 3rem;
 }
 
 section span {
@@ -109,7 +109,7 @@ section h2 {
 }
 
 .social-handles {
-  margin-top: 3rem;
+  margin-top: 2rem;
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -128,7 +128,7 @@ section h2 {
   color: #000;
 }
 
-.social-handles .contact:hover {
+.social-handles .contact:hover, .social-handles .linkedin:hover {
   background: none;
   color: orange;
 }
@@ -141,6 +141,11 @@ section h2 {
   color: orange;
 }
 
+.social-handles .github:hover {
+  background-color: orange;
+  color: #000;
+}
+
 .social-handles .linkedin {
   border: 1px solid orange;
   background-color: orange;
@@ -150,7 +155,55 @@ section h2 {
   color: #000;
 }
 
+#skill {
+  width: 80%;
+  margin: 4rem auto;
+  height: 70vh;
+}
 
-.social-handles img {
- 
+#skill h2 {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+#skill span {
+  display: flex;
+  justify-content: center;
+}
+
+.frontend, .design {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid rgb(255, 153, 0);
+  padding: 1rem 2em 2em 2em;
+  border-radius: 10px;
+}
+
+.frontend p, .design p {
+  text-align: center;
+  color: orange;
+  font-size: 20px;
+}
+
+#skill ul {
+  margin-top: 1rem;
+ font-size: 1rem;
+ margin-left: 40%;
+}
+
+#skill li {
+  margin: 0 auto;
+}
+
+#skill li::marker {
+  content: "✔";
+  color: orange;
+  
+}
+
+.frontend:hover, .design:hover {
+  border: 1px solid #fff;
 }
