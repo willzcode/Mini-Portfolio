@@ -13,7 +13,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #010007;
+  background-color: #0b0d0f;
   color: #fff;
   max-height: 100vh;
 }
@@ -178,8 +178,9 @@ section h2 {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
   border: 1px solid rgb(255, 153, 0);
+  background-color: #2c2c2c;
   padding: 1rem 2em 2em 2em;
   border-radius: 10px;
 }
