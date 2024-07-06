@@ -158,8 +158,8 @@ section h2 {
 
 #skill {
   width: 80%;
-  margin: 4rem auto;
-  height: 70vh;
+  margin: 4rem auto 6rem auto;
+  padding-bottom: 2rem;
 }
 
 #skill h2 {
